@@ -176,7 +176,14 @@
   <div id="contact-us" class="contact">
     <h2 class="heading">Contact Us</h2>
     <div class="w-form">
-      <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="contact-form"><label for="name" class="field-label">Name</label><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" id="name" required=""><label for="email-3" class="field-label">Email Address</label><input type="email" class="text-field w-input" maxlength="256" name="email-3" data-name="Email 3" id="email-3" required=""><label for="email-4" class="field-label">Message</label><textarea id="field-2" name="field-2" maxlength="5000" required="" class="text-field-2 w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="form-submit-button w-button"></form>
+      <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="contact-form" action="https://formspree.io/rehack@princeton.edu" method="POST">
+          <label for="name" class="field-label">Name</label>
+          <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" id="name" required="">
+          <label for="email" class="field-label">Email Address</label>
+          <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email 3" id="email-3" required="">
+          <label for="message" class="field-label">Message</label>
+          <textarea id="field-2" name="message" maxlength="5000" required="" class="text-field-2 w-input"></textarea>
+          <input type="submit" value="Send" data-wait="Please wait..." class="form-submit-button w-button"></form>
       <div class="success-message w-form-done">
         <div>Thank you! Your submission has been received!</div>
       </div>
