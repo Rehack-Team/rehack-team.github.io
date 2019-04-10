@@ -395,7 +395,6 @@ a {
   -ms-flex-item-align: start;
   align-self: flex-start;
   background-color: transparent;
-  font-family: 'Gothic A1', sans-serif;
 }
 
 .heading {
@@ -4332,7 +4331,6 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
   .main-page.center {
     padding-bottom: 10vh;
     padding-left: 0px;
-    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, .59);
   }
   .container-8 {
     background-color: hsla(0, 0%, 100%, .74);
