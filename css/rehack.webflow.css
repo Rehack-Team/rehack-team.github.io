@@ -1226,7 +1226,7 @@ a {
   font-size: 12px;
 }
 
-.subscriber-form {
+.gform {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3771,7 +3771,7 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     display: inline-block;
     margin-bottom: 10px;
   }
-  .subscriber-form {
+  .gform {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -4078,7 +4078,7 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     max-width: none;
     margin-bottom: 20px;
   }
-  .subscriber-form {
+  .gform {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
