@@ -3530,6 +3530,10 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     margin-right: auto;
     margin-bottom: 7vw;
     margin-left: auto;
+    opacity: 0;
+  }
+  .image-opacity {
+    opacity: 0.7;
   }
   .hero-content {
     padding-right: 5vw;
@@ -3739,6 +3743,9 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
   }
   .hero-image {
     margin-bottom: 10vw;
+  }
+  .image-opacity {
+    opacity: 0.5;
   }
   .hero-content {
     margin-bottom: 5vh;
@@ -4035,6 +4042,9 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     z-index: -1;
     width: 80%;
     opacity: 0.77;
+  }
+  .image-opacity {
+    opacity: 0.3;
   }
   .feature-wrap {
     -webkit-box-orient: vertical;
@@ -4352,4 +4362,3 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     margin-left: 0px;
   }
 }
-
