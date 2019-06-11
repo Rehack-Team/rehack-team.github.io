@@ -55,7 +55,7 @@
     formData.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
 
-    console.log(formData);
+    // console.log(formData);
     return formData;
   }
 
@@ -84,17 +84,17 @@
       // xhr.withCredentials = true;
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
-          console.log(xhr.status, xhr.statusText);
-          console.log(xhr.responseText);
+          // console.log(xhr.status, xhr.statusText);
+          // console.log(xhr.responseText);
           form.reset();
           var formElements = form.querySelector(".form-block w-form");
-          console.log(formElements);
-          formElements.style.display = "none";
-          if (formElements) {
-            //formElements.style.display = "none"; // hide form
-          }
+          // console.log(formElements);
+          // formElements.style.display = "none";
+          // if (formElements) {
+          //   //formElements.style.display = "none"; // hide form
+          // }
           var thankYouMessage = form.querySelector(".success-message-2 w-form-done");
-          console.log(thankYouMessage);
+          // console.log(thankYouMessage);
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
           }
@@ -109,7 +109,7 @@
   }
 
   function loaded() {
-    console.log("Contact form submission handler loaded successfully.");
+    // console.log("Contact form submission handler loaded successfully.");
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.gform");
     for (var i = 0; i < forms.length; i++) {
