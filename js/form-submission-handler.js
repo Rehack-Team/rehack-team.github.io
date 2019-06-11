@@ -87,7 +87,7 @@
           console.log(xhr.status, xhr.statusText);
           console.log(xhr.responseText);
           form.reset();
-          var formElements = form.querySelector(".form-block-w-form");
+          var formElements = form.querySelector(".form-block w-form");
           console.log(formElements);
           formElements.style.display = "none";
           if (formElements) {
