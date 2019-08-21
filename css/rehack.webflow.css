@@ -908,9 +908,10 @@ a {
 }
 
 .nav-link:hover {
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   box-shadow: inset 0 -5px 0 0 #3030ee;
   color: #3a3a3a;
+  text-decoration: none;
 }
 
 .nav-menu {
@@ -3630,14 +3631,14 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     clear: none;
   }
   .menu-button.w--open {
-    background-color: #000;
+    background-color: #fff;
   }
   .nav-menu-2 {
     min-width: 240px;
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #000;
+    background-color: #fff;
   }
   .brand {
     padding-left: 18px;
