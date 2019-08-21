@@ -2081,6 +2081,14 @@ a {
   text-decoration: underline;
 }
 
+/* .keynote-pic {
+  max-width: 500px;
+}
+
+.keynote-pic-container {
+  text-align: center;
+} */
+
 .paragraph-10 {
   display: block;
   -webkit-box-orient: vertical;
@@ -2344,14 +2352,10 @@ a {
 }
 
 .heading-keynote {
-  /* -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start; */
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 6.5vh;
   margin-bottom: 20px;
-  /* line-height: 9vh; */
   font-weight: 600;
   text-align: left;
 }
