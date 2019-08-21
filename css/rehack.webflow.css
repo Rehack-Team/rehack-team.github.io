@@ -2060,6 +2060,27 @@ a {
   cursor: default;
 }
 
+.keynote {
+  position: relative;
+  z-index: 90;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 50px 20vh 50px 20vh;
+  background-color: #3030ee;
+  cursor: default;
+}
+
+.keynote a {
+  color: white;
+  text-decoration: underline;
+}
+
+.keynote a:hover {
+  color: #aeaeae;
+  text-decoration: underline;
+}
+
 .paragraph-10 {
   display: block;
   -webkit-box-orient: vertical;
@@ -2320,6 +2341,19 @@ a {
   line-height: 9vh;
   font-weight: 700;
   text-align: center;
+}
+
+.heading-keynote {
+  /* -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start; */
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 6.5vh;
+  margin-bottom: 20px;
+  /* line-height: 9vh; */
+  font-weight: 600;
+  text-align: left;
 }
 
 .container-6 {
@@ -3689,6 +3723,11 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     font-size: 28px;
     line-height: 38px;
   }
+
+  .keynote {
+    padding: 50px 10vh 50px 10vh;
+  }
+
   .feature-content.icons {
     width: auto;
     padding-right: 0px;
@@ -3883,9 +3922,7 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
-  .theme {
-    margin-bottom: 5vh;
-  }
+
   .faq {
     margin-bottom: 5vh;
   }
