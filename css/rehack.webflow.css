@@ -2147,6 +2147,47 @@ a {
     clear: none;
 }
 
+.schedule {
+    position: relative;
+    z-index: 90;
+    display: block;
+    margin: 0px;
+
+    width: 100%;
+
+    padding: 10px 0vh 50px 0vw;
+
+    clear: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1.00);
+}
+
+ul {
+    font-family: Nunito Sans, sans-serif;
+    margin-bottom: 15px;
+    color: #fff; 
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.blue {
+    color:blue; 
+
+}
+
+
+
+
+
 .main-title {
     margin-top: 15px;
     margin-bottom: 0px;
@@ -2275,6 +2316,15 @@ a {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     border: 1px none #000;
+}
+
+.schedule-cont {
+    max-width: 850px;
+    padding-left: 0vw;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 .feature-content-3.icons {
@@ -2447,6 +2497,7 @@ a {
     transform: none;
     color: blue;
 }
+
 
 .apply-button.contact {
     margin-left: 10px;
