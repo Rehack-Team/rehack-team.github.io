@@ -2171,6 +2171,15 @@ a {
     background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1.00);
 }
 
+.instructions {
+
+    font-family: Nunito Sans, sans-serif;
+    color: #fff; 
+    font-size: 24px;
+    line-height: 30px;
+    padding-right: 0px;
+}
+
 ul {
     font-family: Nunito Sans, sans-serif;
     margin-bottom: 15px;
