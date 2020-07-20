@@ -2060,7 +2060,7 @@ a {
     background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1.00);
     cursor: default;
 }
-
+/*
 .keynote {
     position: relative;
     z-index: 90;
@@ -2080,7 +2080,7 @@ a {
 .keynote a:hover {
     color: #aeaeae;
     text-decoration: underline;
-}
+}*/
 
 
 /* .keynote-pic {
@@ -2144,6 +2144,7 @@ a {
     margin-bottom: 0px;
     margin-left: 0px;
     padding: 50px 20vh 50px 10vw;
+    background-color:#ededed;
     clear: none;
 }
 
