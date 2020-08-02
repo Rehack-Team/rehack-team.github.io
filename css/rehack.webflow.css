@@ -2144,7 +2144,7 @@ a {
     margin-bottom: 0px;
     margin-left: 0px;
     padding: 50px 20vh 50px 10vw;
-    background-color: gray;
+    background-color: #ededed; /* FIX HERE */
     clear: none;
 }
 
@@ -2548,10 +2548,11 @@ ul {
 }
 
 .hero-button {
-    display: inline-block;
+    display: block;
     margin-top: 20px;
     margin-right: 0px;
     margin-left: 5px;
+    width: 250px;
     padding: 20px 40px;
     border-style: solid;
     border-width: 3px;
@@ -2570,6 +2571,7 @@ ul {
     text-align: center;
     cursor: pointer;
 }
+
 
 .hero-button:hover {
     background-color: transparent;
