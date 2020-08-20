@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/2019.css" />
     <!-- <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/webflow.css" rel="stylesheet" type="text/css" />
@@ -44,9 +49,10 @@
             "
             sizes="136px"
             alt=""
+            class="center"
           />
         </a>
-        <p>2019</p>
+        <p class="center">Held in 2019</p>
       </div>
       <!-- <div class="title">
         <h1>Rehack 2019</h1>
@@ -55,10 +61,11 @@
     <section class="main-content">
       <!-- 1 -->
       <div class="content-first">
-        <div class="item">
+        <div class="item-first">
           <img src="./images/rehack2019/team.jpg" />
         </div>
       </div>
+
       <!-- 2 -->
       <div class="content">
         <p class="item para">
@@ -68,15 +75,24 @@
           responsible. We established partnerships with industry leaders such as
           IDEO and Adobe to provide skills and design thinking-based workshops.
         </p>
-        <div class="item">
+        <!-- <div class="item">
           <img src="./images/rehack2019/adobe.jpg" />
-        </div>
+        </div> -->
+        <figure class="item">
+          <img src="./images/rehack2019/adobe.jpg" />
+          <figcaption style="text-align: right;">Adobe XD Workshop</figcaption>
+        </figure>
       </div>
+
       <!-- 3 -->
       <div class="content">
-        <div class="item">
+        <!-- <div class="item">
           <img src="./images/rehack2019/ideo.jpg" />
-        </div>
+        </div> -->
+        <figure class="item">
+          <img src="./images/rehack2019/ideo.jpg" />
+          <figcaption>IDEO Design Thinking Workshop</figcaption>
+        </figure>
         <p class="item para">
           The result of a full day of ideation, designing, and implementation
           was 27 thought-provoking prototypes created by students of diverse
@@ -87,20 +103,68 @@
           <a href="https://findcollabs.com/category/rehack">here</a>.
         </p>
       </div>
+
       <!-- 4 -->
-      <div class="content-special">
-        <div class="item-special">
-          <img src="./images/rehack2019/winner1.jpg" />
-        </div>
-        <div class="item-special">
-          <img src="./images/rehack2019/winner2.jpg" />
-        </div>
-        <div class="item-special">
-          <img src="./images/rehack2019/winner3.jpg" />
-        </div>
-      </div>
-      <!-- 5 -->
       <div class="content">
+        <p class="item para">
+          Many of the projects were further refined after the event and went on
+          to compete in competitions, including the Princeton E-Club Pitch and
+          Hult Prize Princeton. Student feedback from the event include “[we]
+          got some amazing insights on how to design projects”, “loved [the
+          keynote speaker]”, and “phenomenal mentorship”. Rehack’s work was also
+          featured by Headstream, a mental health tech accelerator backed by the
+          Bill and Melinda Gates Foundation, and students also had the
+          opportunity to continue their projects with Headstream.
+        </p>
+        <figure class="item">
+          <img src="./images/rehack2019/keynote.jpg" />
+          <figcaption style="text-align: right;">
+            Speaker Srikanth Jalasutram
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- 5 -->
+      <h3
+        style="text-align: center; padding-bottom: 0.5em; padding-top: 1.5em;"
+      >
+        Rehack 2019 Winners
+      </h3>
+      <div class="content-special">
+        <figure class="item-special">
+          <img src="./images/rehack2019/winner1.jpg" />
+          <figcaption style="text-align: center;">
+            Most Feasible: ThoughtfuList
+          </figcaption>
+        </figure>
+        <figure class="item-special">
+          <img src="./images/rehack2019/winner2.jpg" />
+          <figcaption style="text-align: center;">
+            Most Impactful: Slacktivis
+          </figcaption>
+        </figure>
+        <figure class="item-special">
+          <img src="./images/rehack2019/winner3.jpg" />
+          <figcaption style="text-align: center;">
+            Most Original: SPC Sapling
+          </figcaption>
+        </figure>
+        <figure class="item-special">
+          <img src="./images/rehack2019/winner4.jpg" />
+          <figcaption style="text-align: center;">
+            Best Overall: TweetSweet
+          </figcaption>
+        </figure>
+        <!-- <figure class="item-special">
+          <img src="./images/rehack2019/winner1.jpg" />
+          <img src="./images/rehack2019/winner2.jpg" />
+          <img src="./images/rehack2019/winner3.jpg" />
+          <img src="./images/rehack2019/winner4.jpg" />
+          <figcaption>Rehack 2019 Winners</figcaption>
+        </figure> -->
+      </div>
+
+      <!-- <div class="content">
         <p class="item para">
           Many of the projects were further refined after the event and went on
           to compete in competitions, including the Princeton E-Club Pitch and
@@ -114,12 +178,9 @@
         <div class="item">
           <img src="./images/rehack2019/winner4.jpg" />
         </div>
-      </div>
-      <!-- 6 -->
-      <div class="content">
-        <div class="item">
-          <img src="./images/rehack2019/keynote.jpg" />
-        </div>
+      </div> -->
+
+      <!-- <div class="content">
         <p class="item para">
           This spring, we wanted to continue our theme of examining
           relationships between technology and people, and we also wanted to
@@ -136,8 +197,9 @@
           mindsets of the speakers were “super insightful and helpful” to their
           everyday experiences.
         </p>
-      </div>
-      <!-- 7 -->
+      </div> -->
+
+      <!-- 6 -->
       <div class="content-last">
         <div class="item">
           <img src="./images/rehack2019/pens.jpg" />
@@ -147,8 +209,43 @@
         </div>
       </div>
     </section>
-    <!-- <aside>
-      <img src="./images/rehack2019/pens.jpg" />
-    </aside> -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="wrap">
+        <img
+          src="images/logo-text-vertical-darkgray.png"
+          width="97"
+          srcset="
+            images/logo-text-vertical-darkgray-p-500.png   500w,
+            images/logo-text-vertical-darkgray-p-800.png   800w,
+            images/logo-text-vertical-darkgray-p-1080.png 1080w,
+            images/logo-text-vertical-darkgray.png        1924w
+          "
+          sizes="97px"
+          alt=""
+        />
+        <div class="footer-list">
+          <a
+            href="mailto:rehack@princeton.edu?subject=Rehack%20Inquiry%20(from%20Website)"
+            class="footer-link"
+            >Email</a
+          >
+          <a href="https://www.linkedin.com/company/rehack" class="footer-link"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.facebook.com/pg/rehackyourtech"
+            class="footer-link"
+            >Facebook</a
+          >
+          <a href="https://twitter.com/rehackyourtech" class="footer-link"
+            >Twitter</a
+          >
+          <a href="https://medium.com/rehack" class="footer-link">Medium</a>
+          <a href="/code-of-conduct" class="footer-link">Code of Conduct</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
