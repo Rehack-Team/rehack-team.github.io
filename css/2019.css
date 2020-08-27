@@ -14,6 +14,9 @@ img {
 figcaption {
   font-family: "Montserrat", sans-serif;
   font-size: 1vw;
+  margin-top: 1vw; 
+  margin-bottom: 2vw; 
+  color:white;
 }
 
 h1 {
@@ -63,9 +66,12 @@ h1 {
   position: absolute;
   margin-left: 11px;
   top: 15px;
-  color: slateblue; */
+   */
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  color:gray;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .center {
@@ -97,6 +103,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color:hsla(180.40816326530614, 53.92%, 50.23%, 1.00);
   flex-wrap: wrap;
 }
 
@@ -114,6 +121,7 @@ h1 {
 
 .main-content .content .para {
   /* font-size: 1.5em; */
+  color: #3f3f3f;
   font-size: 1.7vw;
 }
 
@@ -196,6 +204,7 @@ h1 {
   }
 
   .main-content .content .para {
+    color: #3f3f3f;
     font-size: 2vw;
   }
 
