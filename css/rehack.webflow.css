@@ -921,7 +921,8 @@ a {
 
 .nav-link:hover {
   padding-bottom: 10px;
-  box-shadow: inset 0 -5px 0 0 #3030ee;
+  /* box-shadow: inset 0 -5px 0 0 #3030ee; */
+  box-shadow: inset 0 -5px 0 0 #44aa00;
   color: #3a3a3a;
   text-decoration: none;
 }
@@ -1264,7 +1265,8 @@ a {
   border-bottom-left-radius: 3px;
   background-color: #fff;
   box-shadow: 0 7px 12px 3px hsla(0, 0%, 87%, 0.59);
-  -webkit-transition: box-shadow 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transition: box-shadow 300ms
+    cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: box-shadow 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
   font-family: Montserrat, sans-serif;
   color: #000;
@@ -2069,7 +2071,10 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1);
+  /* background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1); 
+     this is the blue background */
+  background-color: #50b80bc9;
+  /* background-color: #7dc84c; lighter green */
   cursor: default;
 }
 /*
@@ -2573,9 +2578,13 @@ ul {
   padding: 20px 40px;
   border-style: solid;
   border-width: 3px;
-  border-color: #2f2fee;
+  /* border-color: #2f2fee; this is the blue */
+  border-color: #44a900;
   border-radius: 0px;
-  background-color: #3030ee;
+  /* background-color: #3030ee; this is the blue */
+  /* background-color: #6fc039; */
+  background-color: #44aa00;
+  /* background-color: #338000; */
   box-shadow: 0 12px 37px -8px #7c7c7c;
   opacity: 1;
   -webkit-transition: background-color 250ms ease;
@@ -2606,7 +2615,8 @@ ul {
   -webkit-transition: color 250ms ease;
   transition: color 250ms ease;
   font-family: Nunito Sans, sans-serif;
-  color: #53e5e6;
+  /* color: #53e5e6; this is the blue */
+  color: #7dc84c;
   font-size: 16px;
   line-height: 26px;
   font-weight: 600;
@@ -2623,13 +2633,15 @@ ul {
 }
 
 .hero-button-modified:hover {
-  color: #2f2fee;
+  /* color: #2f2fee; this is the blue */
+  color: #44aa00;
   text-decoration: none;
 }
 
 .hero-button:hover {
   background-color: transparent;
-  color: #2f2fee;
+  /* color: #2f2fee; this is the blue */
+  color: #44aa00;
 }
 
 .hero-button.outline {
@@ -3218,7 +3230,8 @@ ul {
 }
 
 .text-span-alt {
-  color: #2f2fee;
+  /* color: #2f2fee; this is the blue */
+  color: #44aa00;
 }
 
 .quote-icon-copy {
@@ -3247,9 +3260,11 @@ ul {
   margin-top: 0px;
   margin-right: 0px;
   padding: 20px 40px;
-  border: 3px solid #3030ee;
+  /* border: 3px solid #3030ee; this is the blue */
+  border: 3px solid #44a900;
   border-radius: 0px;
-  background-color: #3030ee;
+  /* background-color: #3030ee; this is the blue */
+  background-color: #44aa00;
   box-shadow: 0 12px 37px -8px #7c7c7c;
   opacity: 1;
   -webkit-transition: background-color 250ms ease;
@@ -3261,11 +3276,14 @@ ul {
   font-weight: 600;
   text-align: center;
   cursor: pointer;
+  outline: none;
 }
 
 .general-button:hover {
   background-color: transparent;
-  color: #3030ee;
+  /* color: #3030ee; this is the blue */
+  color: #338000;
+  text-decoration: none;
 }
 
 .general-button.outline {
@@ -3290,6 +3308,7 @@ ul {
   transition: color 800ms ease;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .general-button.outline:hover {
@@ -3308,12 +3327,14 @@ ul {
   -ms-transform: none;
   transform: none;
   color: blue;
+  text-decoration: none;
 }
 
 .general-button.contact {
   margin-left: 10px;
   background-color: transparent;
   box-shadow: inset 0 0 0 2px hsla(0, 0%, 100%, 0.2);
+  text-decoration: none;
 }
 
 .general-button.contact:hover {
@@ -3339,6 +3360,7 @@ ul {
   -webkit-transition: background-color 250ms ease;
   transition: background-color 250ms ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .general-button.form-button:hover {
@@ -3577,9 +3599,11 @@ ul {
   margin-top: 15px;
   margin-right: 0px;
   padding: 20px 40px;
-  border: 3px solid #3030ee;
+  /* border: 3px solid #3030ee; this is the blue */
+  border: 3px solid #44a900;
   border-radius: 0px;
-  background-color: #3030ee;
+  /* background-color: #3030ee; this is the blue */
+  background-color: #44aa00;
   box-shadow: 0 12px 37px -8px #7c7c7c;
   opacity: 1;
   -webkit-transition: background-color 250ms ease;
@@ -3591,11 +3615,13 @@ ul {
   font-weight: 600;
   text-align: center;
   cursor: pointer;
+  outline: none;
 }
 
 .form-submit-button:hover {
   background-color: transparent;
-  color: #3030ee;
+  /* color: #3030ee; this is the blue */
+  color: #338000;
 }
 
 .form-submit-button.outline {
@@ -3610,10 +3636,13 @@ ul {
     linear,
     left top,
     left bottom,
-    from(#3030ee),
-    to(#3030ee)
+    /* from(#3030ee),
+    to(#3030ee) the blue */ from(#44aa00),
+    to(#44aa00)
   );
-  background-image: linear-gradient(180deg, #3030ee, #3030ee);
+  /* background-image: linear-gradient(180deg, #3030ee, #3030ee);
+     this is the blue */
+  background-image: linear-gradient(180deg, #44aa00, #44aa00);
   box-shadow: 0 6px 20px 0 #7c7c7c;
   opacity: 1;
   -webkit-transition: color 800ms ease;
@@ -3623,7 +3652,8 @@ ul {
 }
 
 .form-submit-button.outline:hover {
-  border: 3px solid #3030ee;
+  /* border: 3px solid #3030ee; this is the blue */
+  border: 3px solid #44aa00;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -3637,7 +3667,8 @@ ul {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  color: blue;
+  /* color: blue; */
+  color: green;
 }
 
 .form-submit-button.contact {
@@ -3673,9 +3704,11 @@ ul {
 
 .form-submit-button.form-button:hover {
   border-width: 3px;
-  border-color: #2f2fee;
+  /* border-color: #2f2fee; blue */
+  border-color: #44aa00;
   background-color: transparent;
-  color: #2f2fee;
+  /* color: #2f2fee; blue */
+  color: #44aa00;
 }
 
 .success-message {
@@ -3792,7 +3825,8 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     width: 70vw;
   }
   .menu-icon {
-    color: #3030ee;
+    /* color: #3030ee; */
+    color: #44aa00;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -4347,7 +4381,8 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
   }
   .menu-icon {
     clear: left;
-    color: #3030ee;
+    /* color: #3030ee; */
+    color: #44aa00;
   }
   .menu-button {
     position: absolute;
@@ -4545,11 +4580,14 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     margin-right: auto;
     margin-left: auto;
     padding: 15px 35px;
-    border-color: #3030ee;
-    background-color: #3030ee;
+    /* border-color: #3030ee; */
+    /* background-color: #3030ee; */
+    border-color: #44aa00;
+    background-color: #44aa00;
   }
   .general-button:hover {
-    color: #3030ee;
+    /* color: #3030ee; */
+    color: #44aa00;
   }
   .general-button.contact {
     width: 100%;
@@ -4568,11 +4606,13 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     margin-right: auto;
     margin-left: auto;
     padding: 15px 35px;
-    border-color: #3030ee;
-    background-color: #3030ee;
+    /* border-color: #3030ee; */
+    /* background-color: #3030ee; */
+    border-color: #44aa00;
+    background-color: #44aa00;
   }
   .form-submit-button:hover {
-    color: #3030ee;
+    color: #44aa00;
   }
   .form-submit-button.contact {
     width: 100%;
