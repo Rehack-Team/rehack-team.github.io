@@ -511,6 +511,10 @@ a {
   font-weight: 400;
 }
 
+.sched {
+  
+}
+
 .button {
   display: inline-block;
   margin-top: 20px;
@@ -2164,11 +2168,12 @@ a {
   clear: none;
 }
 
+
 .schedule {
   position: relative;
   z-index: 90;
   display: block;
-  margin: 0px;
+  margin: auto;
 
   width: 100%;
 
@@ -2185,7 +2190,7 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1);
+  background-color: #44aa00;
 }
 
 .instructions {
@@ -2202,10 +2207,21 @@ ul {
   color: #fff;
   font-size: 24px;
   line-height: 40px;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+}
+
+.h3 {
+  color:#fff;
+  font-weight:bold;
+  font-size:48px;
 }
 
 .blue {
-  color: blue;
+  color:#fff;
+  font-weight:bold;
+  text-decoration: underline;
 }
 
 .main-title {
@@ -2340,7 +2356,7 @@ ul {
 
 .schedule-cont {
   max-width: 850px;
-  padding-left: 0vw;
+  padding-left: 150vw;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -2420,6 +2436,22 @@ ul {
   font-size: 7.5vh;
   line-height: 9vh;
   font-weight: 700;
+  text-align: center;
+}
+
+.sch {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-right: 11px;
+  padding-left: 0px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 3.5vh;
+  line-height: 9vh;
+  font-weight: 400;
   text-align: center;
 }
 
