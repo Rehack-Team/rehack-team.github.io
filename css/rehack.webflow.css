@@ -2081,7 +2081,7 @@ a {
   /* background-color: #7dc84c; lighter green */
   cursor: default;
 }
-/*
+
 .keynote {
     position: relative;
     z-index: 90;
@@ -2089,27 +2089,27 @@ a {
     width: 100%;
     margin: 0px;
     padding: 50px 20vh 50px 20vh;
-    background-color: #3030ee;
+    background-color: white;
     cursor: default;
 }
 
 .keynote a {
-    color: white;
+    color: #aeaeae;
     text-decoration: underline;
 }
 
 .keynote a:hover {
     color: #aeaeae;
     text-decoration: underline;
-}*/
+}
 
-/* .keynote-pic {
+ .keynote-pic {
   max-width: 500px;
 }
 
 .keynote-pic-container {
   text-align: center;
-} */
+} 
 
 .paragraph-10 {
   display: block;
@@ -2128,7 +2128,7 @@ a {
   margin-bottom: 15px;
   padding-right: 0px;
   font-family: Nunito Sans, sans-serif;
-  color: #fff;
+  color: #3f3f3f;
 }
 
 .dropdown-toggle-2 {
@@ -2457,7 +2457,7 @@ ul {
 
 .heading-keynote {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #3f3f3f;
   font-size: 6.5vh;
   margin-bottom: 20px;
   font-weight: 600;
