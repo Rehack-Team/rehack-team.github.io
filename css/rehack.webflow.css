@@ -512,7 +512,6 @@ a {
 }
 
 .sched {
-  
 }
 
 .button {
@@ -2083,33 +2082,33 @@ a {
 }
 
 .keynote {
-    position: relative;
-    z-index: 90;
-    display: block;
-    width: 100%;
-    margin: 0px;
-    padding: 50px 20vh 50px 20vh;
-    background-color: white;
-    cursor: default;
+  position: relative;
+  z-index: 90;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 50px 20vh 50px 20vh;
+  background-color: white;
+  cursor: default;
 }
 
 .keynote a {
-    color: #aeaeae;
-    text-decoration: underline;
+  color: #aeaeae;
+  text-decoration: underline;
 }
 
 .keynote a:hover {
-    color: #aeaeae;
-    text-decoration: underline;
+  color: #aeaeae;
+  text-decoration: underline;
 }
 
- .keynote-pic {
+.keynote-pic {
   max-width: 500px;
 }
 
 .keynote-pic-container {
   text-align: center;
-} 
+}
 
 .paragraph-10 {
   display: block;
@@ -2168,7 +2167,6 @@ a {
   clear: none;
 }
 
-
 .schedule {
   position: relative;
   z-index: 90;
@@ -2213,14 +2211,14 @@ ul {
 }
 
 .h3 {
-  color:#fff;
-  font-weight:bold;
-  font-size:48px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
 }
 
 .blue {
-  color:#fff;
-  font-weight:bold;
+  color: #fff;
+  font-weight: bold;
 }
 
 .main-title {
@@ -3762,6 +3760,18 @@ ul {
 
 html.w-mod-js *[data-ix="eased-dropdown"] {
   opacity: 0;
+}
+
+.tracks {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.tracks .item {
+  /* flex: 0 50%; */
+  margin: 0px 30px -50px 30px;
 }
 
 @media (max-width: 991px) {
