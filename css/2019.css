@@ -14,9 +14,9 @@ img {
 figcaption {
   font-family: "Montserrat", sans-serif;
   font-size: 1vw;
-  margin-top: 1vw; 
-  margin-bottom: 2vw; 
-  color:white;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  color: white;
 }
 
 a:hover {
@@ -73,7 +73,7 @@ h1 {
    */
   text-align: center;
   font-size: 1.3em;
-  color:gray;
+  color: gray;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -107,7 +107,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:hsla(180.40816326530614, 53.92%, 50.23%, 1.00);
+  background-color: hsla(180.40816326530614, 53.92%, 50.23%, 1);
   flex-wrap: wrap;
 }
 
@@ -145,7 +145,6 @@ h1 {
 }
 .main-content .content-last .item {
   margin: -1vw 1vw;
-  
 }
 
 /* Footer */
@@ -245,7 +244,7 @@ h1 {
 
 .heading {
   font-size: 1.3em;
-  color:gray;
+  color: gray;
   font-family: "Nunito Sans", sans-serif;
   margin-top: 10px;
   margin-bottom: 20px;
