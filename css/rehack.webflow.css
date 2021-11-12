@@ -2069,8 +2069,8 @@ a {
   z-index: 90;
   display: block;
   width: 100%;
-  margin: 0px;
-  padding: 50px 20vh 50px 10vw;
+  margin: 0;
+  padding: 50px 10vw 50px 10vw;
   clear: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -3777,6 +3777,7 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
 .tracks {
   display: flex;
   /* align-items: center; */
+  margin: 0 auto;
   justify-content: space-between;
   padding: 5px;
 }
@@ -3986,6 +3987,12 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .black-paragraph {
+    font-size: 20px;
+  }
+  .tracks {
+    width: 100%;
   }
 }
 
@@ -4269,6 +4276,12 @@ html.w-mod-js *[data-ix="eased-dropdown"] {
   .form-submit-button.form-button {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 3px;
+  }
+  .black-paragraph {
+    font-size: 18px;
+  }
+  .tracks {
+    width: 100%;
   }
 }
 
